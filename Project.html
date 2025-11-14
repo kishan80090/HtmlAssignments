@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrare Internship Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Celebrare</h1>
+            <p>Making your events memorable with creativity and style</p>
+            <button onclick="scrollToGallery()">Explore Gallery</button>
+        </div>
+    </section>
+
+    <!-- Image Slider -->
+    <section class="slider-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./pic/hellow.png" alt="Slide 1"></div>
+                <div class="swiper-slide"><img src="./pic/hellow1.png" alt="Slide 2"></div>
+                <div class="swiper-slide"><img src="./pic/hellow2.png" alt="Slide 3"></div>
+                <div class="swiper-slide"><img src="./pic/hellow3.png" alt="Slide 4"></div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Creativity</h3>
+                <p>We bring unique ideas to make your events special.</p>
+            </div>
+            <div class="card">
+                <h3>Professionalism</h3>
+                <p>Our team delivers top-quality services on time.</p>
+            </div>
+            <div class="card">
+                <h3>Reliability</h3>
+                <p>You can trust us to make your celebrations memorable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>Event Gallery</h2>
+        <div class="gallery-grid">
+            <img src="./pic/hellow.png" alt="">
+            <img src="./pic/hellow.png" alt="">
+            <img src="./pic/hellow.png" alt="">
+            <img src="./pic/hellow.png" alt="">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Celebrare. All rights reserved.</p>
+    </footer>
+
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
